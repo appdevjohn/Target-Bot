@@ -1,0 +1,23 @@
+{
+    "name": "target-scrape",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./src/index.ts",
+        "build": "tsc",
+        "prod": "node ./dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.13",
+        "ts-node": "^10.2.1"
+    },
+    "dependencies": {
+        "axios": "^0.22.0",
+        "dotenv": "^10.0.0",
+        "puppeteer": "^10.4.0"
+    }
+}
